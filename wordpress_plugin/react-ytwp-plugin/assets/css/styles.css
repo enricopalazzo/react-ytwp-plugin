@@ -1,0 +1,36 @@
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.details div h3
+{
+  margin-top: 9px;
+}
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
+
+.media-body {
+  width: 150px;
+}
+.video-list-container {
+  margin-top: 15px;
+}
+
+@media (min-width: 1200px) {
+  .video-list-container {
+    margin-top: 0px;
+    max-height: 556px;
+    overflow-y: scroll;
+  }
+}
