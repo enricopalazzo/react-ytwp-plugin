@@ -1,12 +1,9 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
-//import ReactDOM from 'react-dom';
 import YTSearch from 'youtube-api-search';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
 import './App.css';
-
-//const API_KEY = 'AIzaSyAiY8rQCjCySS_l9ooDj8W68rLZWFKeOEY';
 
 class App extends Component {
 
